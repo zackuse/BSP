@@ -1,0 +1,46 @@
+[queue]
+ip="127.0.0.1"
+port=6379
+
+[mysql]
+ip="127.0.0.1"
+port=3306
+user="root"
+password="123456"
+db="bspkuangji"
+
+[cache]
+ip="127.0.0.1"
+port=6379
+
+[redis]
+ip="127.0.0.1"
+port=6379
+
+[task]
+ip="127.0.0.1"
+port=6379
+
+[mongo]
+ip="127.0.0.1"
+port=27017
+
+[global]
+gamename="bspkuangji"
+fangda=10000
+worker_count = 100
+gameflag=true
+version="1.0.1"
+
+# facebook beanstalkd配置
+[beanstalkd]
+ip="127.0.0.1"
+port=11300
+
+[newoss]
+hbuilder_bucker="bspkuangjivdshot"
+hbuilder_appid = "H5EB3611E"
+hbuilder_hbhotupdate="bspkuangjivdshot.oss-cn-beijing.aliyuncs.com"
+Endpoint="oss-cn-beijing.aliyuncs.com"
+AccessKeyId="LTAI4Fu6SxoEUpFgFvCWBfaf"
+AccessKeySecret="ic5wfAmZ6MlAMvsAJ0SepBrThLdQhp"

@@ -1,0 +1,45 @@
+[queue]
+ip="172.18.182.3"
+port=63801
+
+[task]
+ip="172.18.182.3"
+port=63821
+
+[mysql]
+ip="172.18.182.3"
+port=33061
+user="root"
+password="admin123456!"
+db="bspkuangji"
+
+[cache]
+ip="172.18.182.3"
+port=63811
+
+[redis]
+ip="172.18.182.3"
+port=63791
+
+[mongo]
+ip="172.18.182.3"
+port=32787
+
+[global]
+gamename="bspkuangji"
+fangda=10000
+worker_count = 100
+gameflag=true
+version="1.0.1"
+
+# facebook beanstalkd配置
+[beanstalkd]
+ip="172.18.182.3"
+port=11300
+
+[oss]
+bucket_hotupdate_cocos = "bspkuangjivdshot"
+ip_hotupdate_cocos = "bspkuangjivdshot.oss-cn-beijing.aliyuncs.com"
+accessKey_hotupdate_cocos = "LTAI4Fu6SxoEUpFgFvCWBfaf"
+secretKey_hotupdate_cocos = "ic5wfAmZ6MlAMvsAJ0SepBrThLdQhp"
+endpoint_cocos = "oss-cn-beijing.aliyuncs.com"

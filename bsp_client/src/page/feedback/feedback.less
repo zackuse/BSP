@@ -1,0 +1,41 @@
+body {
+    width: 100%;
+    background-color: #fff;
+}
+
+.van-cell-group {
+    width: 94%;
+
+    .van-cell {
+        padding: 15px 0;
+        margin-left: 11px;
+    }
+
+    .van-field__body{
+        textarea{
+            min-height:100px;
+        }
+    }
+
+
+
+    .van-cell:not(:last-child)::after {
+        border-bottom: 1px solid #eeeeee;
+        left: 0;
+    }
+
+    .van-field__label {
+        span {
+            color: #666666;
+        }
+    }
+}
+
+.van-hairline--top-bottom::after {
+    left: -45%;
+    border-bottom-color:#EEEEEE;
+}
+
+.loginBtn {
+    margin-top: 122px;
+}

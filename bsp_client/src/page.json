@@ -1,0 +1,25 @@
+{
+	"index": "./src/app.entry.js",
+	"login.login": "./src/page/login/login.entry.js",
+	"login.register": "./src/page/login/register.entry.js",
+	"login.pwd": "./src/page/login/pwd.entry.js",
+	"home.home": "./src/page/home/home.entry.js",
+	"wallet.wallet": "./src/page/wallet/wallet.entry.js",
+	"mine.mine": "./src/page/mine/mine.entry.js",
+	"help.help": "./src/page/help/help.entry.js",
+	"ecology.ecology": "./src/page/ecology/ecology.entry.js",
+	"changePwd.changePwd": "./src/page/changePwd/changePwd.entry.js",
+	"changePwd.changeLogin": "./src/page/changePwd/changeLogin.entry.js",
+	"changePwd.changeTrade": "./src/page/changePwd/changeTrade.entry.js",
+	"changePwd.changeBD": "./src/page/changePwd/changeBD.entry.js",
+	"indiv.indiv":"./src/page/indiv/indiv.entry.js",
+	"status.status":"./src/page/status/status.entry.js",
+	"feedback.feedback":"./src/page/feedback/feedback.entry.js",
+	"about.about":"./src/page/about/about.entry.js",
+	"recharge.recharge":"./src/page/recharge/recharge.entry.js",
+	"withdraw.withdraw":"./src/page/withdraw/withdraw.entry.js",
+	"take.take":"./src/page/take/take.entry.js",
+	"pledge.pledge":"./src/page/pledge/pledge.entry.js",
+	"select.select":"./src/page/select/select.entry.js"
+	
+}

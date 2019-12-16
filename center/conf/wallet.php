@@ -1,0 +1,37 @@
+<?php
+return array(
+    '/center/hall/calldeposit'=>[
+        "content_by_php_class"=>array('class'=>'scripts\\WalletCtrl','method'=>'invoke1',"params"=>["fname"=>"calldeposit"]),
+        "comment"=>"充值回调",
+    ],
+    '/center/hall/callwithdrawal'=>[
+        "content_by_php_class"=>array('class'=>'scripts\\WalletCtrl','method'=>'invoke1',"params"=>["fname"=>"callwithdrawal"]),
+        "comment"=>"提现回调",
+    ],
+    '/center/wallet/withdraw'=>[
+        "access_by_php_class"=>[['class'=>'scripts\\Access','method'=>'access',"params"=>[]],],
+        "content_by_php_class"=>array('class'=>'scripts\\WalletCtrl','method'=>'invoke',"params"=>["fname"=>"withdraw"]),
+        "comment"=>"发起提现",
+    ],
+    '/center/wallet/completewithdraw'=>[
+        "access_by_php_class"=>[],
+        "allow_ip"=>["local","172.17.33.202"],
+        "content_by_php_class"=>array('class'=>'scripts\\WalletCtrl','method'=>'invoke',"params"=>["fname"=>"completewithdraw"]),
+        "comment"=>"处理提现",
+    ],
+    '/center/wallet/getrechargelist'=>[
+        "access_by_php_class"=>[['class'=>'scripts\\Access','method'=>'access',"params"=>[]],],
+        "content_by_php_class"=>array('class'=>'scripts\\WalletCtrl','method'=>'invoke',"params"=>["fname"=>"getrechargelist"]),
+        "comment"=>"充值记录",
+    ],
+    '/center/wallet/getwithdrawlist'=>[
+        "access_by_php_class"=>[['class'=>'scripts\\Access','method'=>'access',"params"=>[]],],
+        "content_by_php_class"=>array('class'=>'scripts\\WalletCtrl','method'=>'invoke',"params"=>["fname"=>"getwithdrawlist"]),
+        "comment"=>"提现记录",
+    ],
+    '/center/wallet/setcashaddr'=>[
+        "access_by_php_class"=>[['class'=>'scripts\\Access','method'=>'access',"params"=>[]], ],
+        "content_by_php_class"=>array('class'=>'scripts\\WalletCtrl','method'=>'invoke',"params"=>["fname"=>"setcashaddr"]),
+        "comment"=>"设置提现地址",
+    ],
+);

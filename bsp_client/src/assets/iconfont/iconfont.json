@@ -1,0 +1,51 @@
+{
+  "id": "1558577",
+  "name": "bsp",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "12274158",
+      "name": "wd",
+      "font_class": "wd",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "12274159",
+      "name": "sy",
+      "font_class": "sy",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "12274160",
+      "name": "st",
+      "font_class": "st",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "12274222",
+      "name": "zs",
+      "font_class": "zs",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "12274234",
+      "name": "b",
+      "font_class": "b",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "12274257",
+      "name": "z",
+      "font_class": "z",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    }
+  ]
+}
